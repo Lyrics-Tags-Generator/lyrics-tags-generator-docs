@@ -1,3 +1,5 @@
+# ⚠️ Currently finishing up the final iterations, will fully update docs when everything is done. ⚠️
+
 # Lyrics Tags Generator ([tags.notnick.io](https://tags.notnick.io/))
 
 This is a small utility tool for personal use, but you can also use it if you have a music channel on [YouTube](https://www.youtube.com).
