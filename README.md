@@ -8,6 +8,8 @@ This is a small utility tool for personal use, but you can also use it if you ha
 - `Title` *(Optional)*
 - `Features` (Optional)
 - `TikTok` (Optional)
+- `Channel` (Optional)
+- `Format` (Optional)
 
 If you think a different format works better, then please [submit an issue](https://github.com/alsonick/lyrics-tags-generator/issues/new?template=Blank+issue) or [email me](mailto:hi@notnick.io).
 
