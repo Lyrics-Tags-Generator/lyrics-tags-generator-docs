@@ -15,7 +15,7 @@ If you think a different format works better, then please [submit an issue](http
 
 ## Data
 
-[Click here to open the json representation.](https://tags.notnick.io/api/gen?title=Don%27t%20Let%20Me%20Down&artist=The%20Chainsmokers&features=Daya&tiktok=false)
+[Click here to open the json representation.](https://tags.notnick.io/api/generate?title=Residuals&artist=Chris%20Brown&features=none&tiktok=false&format=lyrics&channel=none)
 
 ```json
 {
@@ -36,7 +36,7 @@ If you think a different format works better, then please [submit an issue](http
         "titles": "Chris Brown - Residuals (Lyrics)=Chris Brown - Residuals [Lyrics]"
     },
     "url": "/api/generate?title=Residuals&artist=Chris%20Brown&features=none&tiktok=false&format=lyrics&channel=none",
-    "length": 341
+    "length": 340
 }
 ```
 
