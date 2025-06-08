@@ -10,7 +10,7 @@ This is a small utility tool for personal use, but you can also use it if you ha
 - `TikTok` (Optional)
 - `Channel` (Optional)
 - `Format` (Optional)
-    - Lyrics
+    - Lyrics (Default)
     - Bass Boosted
     - Nightcore/Sped Up
     - Slowed/Reverb
