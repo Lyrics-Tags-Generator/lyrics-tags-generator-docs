@@ -62,7 +62,7 @@ If the format is provided in both the `artist` and `format` fields, then the for
         "Residuals",
         "Lyrics"
     ],
-    "extras": {...},
+    "extras": {},
     "url": "/api/generate?title=Residuals&artist=Chris%20Brown&features=none&tiktok=false&format=lyrics&channel=none&shuffle=false&genre=none&verse=none",
     "length": 337
 }
