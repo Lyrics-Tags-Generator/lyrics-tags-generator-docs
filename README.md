@@ -1,21 +1,22 @@
 # Lyrics Tags Generator ([tags.notnick.io](https://tags.notnick.io/))
 
-This is a small utility tool for personal use, but you can also use it if you have a music/lyric channel on [YouTube](https://www.youtube.com).
+This is a small utility tool for personal use, but you can use it if you have a music/lyric channel on [YouTube](https://www.youtube.com).
 
 ## What to provide
 
-| Field     | Required | Description / Options |
+| Params     | Required | Description / Options |
 |-----------|----------|------------------------|
-| `Artist`  | ✅ Yes   | Name of the artist. If you provide both `artist` and `title` in the `artist` field, you can leave all the other fields empty. |
+| `Artist`  | ✅ Yes   | Name of the artist. |
 | `Title`   | ❌ No    | Name of the song. |
-| `Features`| ❌ No    | Featured artists (up to 3 supported). |
+| `Features`| ❌ No    | Featured artists (3 supported). |
 | `TikTok`  | ❌ No    | Boolean flag (`true` / `false`). |
-| `Channel` | ❌ No    | Name of the YouTube or music channel. |
+| `Channel` | ❌ No    | Name of the YouTube channel. |
 | `Format`  | ❌ No    | • `Lyrics` *(default)*<br>• `Bass Boosted`<br>• `Nightcore/Sped Up`<br>• `Slowed/Reverb`<br>• `Letra`<br>• `Phonk` |
-| `Shuffle` | ❌ No    | Whether to shuffle tags (API only). |
+| `Shuffle` | ❌ No    | Shuffle tags option (API only). |
 | `Genre`   | ❌ No    | • `None` *(default)*<br>• `Country`<br>• `Latin`<br>• `Phonk`<br>• `Pop`<br>• `Rap` |
 | `Verse`   | ❌ No    | Up to 3 short verses (no numbers or special characters). |
 
+If you provide both `artist` and `title` in the `artist` field, you can leave all the other fields empty.
 
 > The `shuffle` option can only be passed in as a query in the API request endpoint. On the site, there's a button that lets you shuffle your tags, and the [bot version](https://discord.com/oauth2/authorize?client_id=1338567480834265193&permissions=2147534848&integration_type=0&scope=bot) shuffles the tags automatically.
 
@@ -31,14 +32,16 @@ The format will _always_ default to `Lyrics` if it isn't provided.
 
 If the format is provided in both the `artist` and `format` fields, then the format in the `format` field will override the format provided in the `artist` field.
 
-### Important Points
-- The bot version shuffles tags automatically.
+### Important
+- The [bot](https://discord.com/oauth2/authorize?client_id=1338567480834265193&permissions=2147534848&integration_type=0&scope=bot) version shuffles tags automatically.
 - If you have multiple features, only the first 3 features will be included in the tags.
 - You can only provide 3 verses.
 - You cannot include numbers or special characters in the `verse` field.
 - If the artist, title or even format is included in the `artist` field, then the character limit is 100.
 - The character limit for the `artist`, `features` and `channel` fields is 30.
 - Character limit for `title` is 45.
+- You cannot include special characters in the `artist` field.
+- You cannot include commas in the `title` field.
 
 ## Data
 
