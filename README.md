@@ -14,7 +14,7 @@ This is a small utility tool for personal use, but you can use it if you have a 
 | `Format`  | ❌ No    | • `Lyrics` *(default)*<br>• `Bass Boosted`<br>• `Nightcore/Sped Up`<br>• `Slowed/Reverb`<br>• `Letra`<br>• `Phonk` |
 | `Shuffle` | ❌ No    | Shuffle tags option (API only). |
 | `Genre`   | ❌ No    | • `None` *(default)*<br>• `Country`<br>• `Latin`<br>• `Phonk`<br>• `Pop`<br>• `Rap` |
-| `Verse`   | ❌ No    | Up to 3 short verses (no numbers or special characters). |
+| `Verse`   | ❌ No    | Up to 3 short verses. |
 
 If you provide both `artist` and `title` in the `artist` field, you can leave all the other fields empty.
 
