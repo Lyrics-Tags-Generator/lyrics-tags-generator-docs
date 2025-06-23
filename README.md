@@ -37,11 +37,36 @@ If the format is provided in both the `artist` and `format` fields, then the for
 - If you have multiple features, only the first 3 features will be included in the tags.
 - You can only provide 3 verses.
 - You cannot include numbers or special characters in the `verse` field.
-- If the artist, title or even format is included in the `artist` field, then the character limit is 100.
-- The character limit for the `artist`, `features` and `channel` fields is 30.
-- Character limit for `title` is 45.
+- If the artist, title or even format is included in the `artist` field, then the character limit is `100`.
+- The character limit for the `artist`, `features` and `channel` fields is `30`.
+- Character limit for `title` is `45`.
 - You cannot include special characters in the `artist` field.
 - You cannot include commas in the `title` field.
+
+### Automation
+
+If use decide to use Lyrics Tags Generator in an automation system, then here are a few things you need to do:
+- You must remove any unnecessary data when providing it in the params to avoid any character limits, let's say you're pulling your data from a different service and it returns `I Smoked Away My Brain (I'm God x Demons Mashup)` as the title, this violates the `45` character limit for titles and it's not relevant for generating tags (bad SEO), you only want the `I Smoked Away My Brain` part, you must remove the `(I'm God x Demons Mashup)` from your end.
+
+Python example on how to remove unnecessary data:
+
+```py
+title = "I Smoked Away My Brain (I'm God x Demons Mashup)"
+sliced = text[text.find('('):]
+print(sliced) # I Smoked Away My Brain
+```
+
+- You also need to remove any commas found in `title` field.
+
+Python example on how to remove commas:
+
+```py
+text = "apples, oranges, bananas"
+new_text = text.replace(",", "")
+print(new_text)
+```
+
+If your automation software is written in a different programming language, then you must make the changes in that language.
 
 ## Data
 
