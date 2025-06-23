@@ -17,6 +17,14 @@ This is a small utility tool for personal use, but you can also use it if you ha
     - Letra
     - Phonk
 - `Shuffle` *(Optional)*
+- `Genre` *(Optional)*
+    - None (Default)
+    - Country
+    - Latin
+    - Phonk
+    - Pop
+    - Rap
+- `Verse` (Optional)
 
 > The `shuffle` option can only be passed in as a query in the API request endpoint. On the site, there's a button that lets you shuffle your tags, and the [bot version](https://discord.com/oauth2/authorize?client_id=1338567480834265193&permissions=2147534848&integration_type=0&scope=bot) shuffles the tags automatically.
 
@@ -32,6 +40,8 @@ The format will _always_ default to `Lyrics` if it isn't provided.
 
 <img width="550" src="https://github.com/user-attachments/assets/b52492a9-7d63-45e1-b5ef-8f0270110b99" />
 
+If the format is provided in both the `artist` and `format` fields, then the format in the `format` field will override the format provided in the `artist` field.
+
 ## Data
 
 [Click here to open the json representation.](https://tags.notnick.io/api/generate?title=Residuals&artist=Chris%20Brown&features=none&tiktok=false&format=lyrics&channel=none)
@@ -39,10 +49,10 @@ The format will _always_ default to `Lyrics` if it isn't provided.
 ```json
 {
     "success": true,
-    "tags": "chris brown residuals,chris brown residuals lyrics,residuals lyrics,residuals chris brown lyrics,lyrics residuals,lyrics chris brown residuals,chris brown lyrics residuals,residuals lyrics chris brown,residuals lyric video,lyrics residuals chris brown,chris brown lyrics,lyrics chris brown,residuals,chris brown,residuals chris brown,lyrics",
-    "tagsToBeRemoved": "",
-    "removedTags": "chris brown residuals,chris brown residuals lyrics,residuals lyrics,residuals chris brown lyrics,lyrics residuals,lyrics chris brown residuals,chris brown lyrics residuals,residuals lyrics chris brown,residuals lyric video,lyrics residuals chris brown,chris brown lyrics,lyrics chris brown,residuals,chris brown,residuals chris brown,lyrics",
-    "removedTagsLength": 340,
+    "tags": "chris brown residuals,chris brown residuals lyrics,residuals lyrics,residuals chris brown lyrics,lyrics residuals,lyrics chris brown residuals,chris brown lyrics residuals,residuals lyric video,lyrics residuals chris brown,chris brown lyrics,lyrics chris brown,residuals,chris brown,residuals chris brown,lyrics",
+    "tagsToBeRemoved": [],
+    "removedTags": "chris brown residuals,chris brown residuals lyrics,residuals lyrics,residuals chris brown lyrics,lyrics residuals,lyrics chris brown residuals,chris brown lyrics residuals,residuals lyric video,lyrics residuals chris brown,chris brown lyrics,lyrics chris brown,residuals,chris brown,residuals chris brown,lyrics",
+    "removedTagsLength": 337,
     "title": "Residuals",
     "artist": "Chris Brown",
     "features": [],
@@ -51,11 +61,9 @@ The format will _always_ default to `Lyrics` if it isn't provided.
         "Residuals",
         "Lyrics"
     ],
-    "extras": {
-        "titles": "Chris Brown - Residuals (Lyrics)=Chris Brown - Residuals [Lyrics]"
-    },
-    "url": "/api/generate?title=Residuals&artist=Chris%20Brown&features=none&tiktok=false&format=lyrics&channel=none&shuffle=false",
-    "length": 340
+    "extras": {...},
+    "url": "/api/generate?title=Residuals&artist=Chris%20Brown&features=none&tiktok=false&format=lyrics&channel=none&shuffle=false&genre=none&verse=none",
+    "length": 337
 }
 ```
 
