@@ -82,7 +82,7 @@ Please [email](mailto:hi@notnick.io) me if you find any bugs.
 
 ## tags-py
 
-I've also developed a small Python script for those who prefer to use the terminal. [Click hereto download](https://github.com/alsonick/tags-py).
+I've also developed a small Python script for those who prefer to use the terminal. [Click here to download](https://github.com/alsonick/tags-py).
 
 ## Stack
 
