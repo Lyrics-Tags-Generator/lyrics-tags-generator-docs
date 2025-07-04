@@ -26,11 +26,11 @@ Example:
 
 You can also provide the `format` and it will generate the appropriate tags.
 
-The format will _always_ default to `Lyrics` if it isn't provided.
-
 ```Chris Brown - Residuals (Bass Boosted)```
 
-If the format is provided in both the `artist` and `format` fields, then the format in the `format` field will override the format provided in the `artist` field. (Example above)
+The format will _always_ default to `Lyrics` if it isn't provided.
+
+If the format is provided in both the `artist` and `format` fields, then the format in the `format` field will override the format provided in the `artist` field.
 
 ### Important
 - The [bot](https://discord.com/oauth2/authorize?client_id=1338567480834265193&permissions=2147534848&integration_type=0&scope=bot) version shuffles tags automatically.
