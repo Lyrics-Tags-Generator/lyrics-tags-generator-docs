@@ -22,13 +22,13 @@ If you provide both `artist` and `title` in the `artist` field, you can leave al
 
 Example:
 
-<img width="550" src="https://github.com/user-attachments/assets/84efdc6d-c556-4299-946b-4e2838edb5d5" />
+```Chris Brown - Residuals```
 
 You can also provide the `format` and it will generate the appropriate tags.
 
 The format will _always_ default to `Lyrics` if it isn't provided.
 
-<img width="550" src="https://github.com/user-attachments/assets/b52492a9-7d63-45e1-b5ef-8f0270110b99" />
+```Chris Brown - Residuals (Bass Boosted)```
 
 If the format is provided in both the `artist` and `format` fields, then the format in the `format` field will override the format provided in the `artist` field.
 
@@ -42,8 +42,6 @@ If the format is provided in both the `artist` and `format` fields, then the for
 - Character limit for `title` is `45`.
 - You cannot include special characters in the `artist` field.
 - You cannot include commas in the `title` field.
-
-If your automation software is written in a different programming language, then you must make the changes in that language.
 
 ## Data
 
