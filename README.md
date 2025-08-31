@@ -83,7 +83,7 @@ Please [email](mailto:hi@notnick.io) me if you find any bugs.
 
 ## tags-py
 
-I've also developed a small Python script for those who prefer to use the terminal. [Click here to download](https://github.com/alsonick/tags-py).
+We've also developed a small Python script that interacts with Lyrics Tags Generator for those who prefer to use the terminal. [Click here for instructions on how to setup the Python script](https://github.com/alsonick/tags-py).
 
 ## Stack
 
