@@ -1,4 +1,4 @@
-# Lyrics Tags Generator | Documentation ([tags.notnick.io](https://tags.notnick.io/))
+# Lyrics Tags Generator | Documentation
 
 This is a small utility tool for personal use, but you can use it if you have a music/lyric channel on [YouTube](https://www.youtube.com).
 
