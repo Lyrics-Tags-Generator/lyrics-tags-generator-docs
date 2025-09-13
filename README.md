@@ -1,6 +1,6 @@
 # Lyrics Tags Generator | Documentation
 
- > Our official documentation.
+ > The official documentation.
 
 ## Params
 
