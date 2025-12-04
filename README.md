@@ -2,7 +2,7 @@
 
  > The official documentation.
 
-## Params
+## What To Provide
 
 | Params     | Required | Description |
 |-----------|----------|------------------------|
